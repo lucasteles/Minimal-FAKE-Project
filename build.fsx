@@ -1,3 +1,8 @@
+#r "paket:
+source https://api.nuget.org/v3/index.json
+nuget Fake.DotNet.Cli
+nuget Fake.IO.FileSystem
+nuget Fake.Core.Target"
 #load ".fake/build.fsx/intellisense.fsx"
 
 open Fake.Core
